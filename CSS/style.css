@@ -1,0 +1,70 @@
+/* css reset */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* css variables */
+:root
+{
+
+}
+
+/* navigation bar */
+#navbar
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before
+{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+/* navigation bar: logo */
+#logo
+{
+    margin: 15px 85px;
+}
+
+/* navigation bar: logo image */
+#logo img
+{
+    height: 80px;
+    width: 80px;
+    margin: 3px 20px;
+    filter: invert(100%);
+}
+
+/* Navbar items */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 30px;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgba(245, 245, 245, 0.836);
+    
+}
