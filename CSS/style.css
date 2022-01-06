@@ -189,7 +189,11 @@
     font-size: 40px;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-weight: bolder; */
-    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Comfortaa', cursive; */
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'IBM Plex Serif', serif;
+    color: rgb(96,63,32);
+    font-weight: bolder;
 }
 
 /* Utility Class */
