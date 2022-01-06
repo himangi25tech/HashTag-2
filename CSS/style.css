@@ -53,6 +53,7 @@
 #navbar ul li{
     list-style: none;
     font-size: 30px;
+    font-family: 'Kodchasan', sans-serif;
 }
 
 #navbar ul li a{
@@ -68,3 +69,168 @@
     background-color: rgba(245, 245, 245, 0.836);
     
 }
+
+#firstpage
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    /* padding-top: 20px; */
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+#firstpage::before
+{
+    content: "";
+    position: absolute;
+    background: url('../Img/background.jpg') no-repeat center center/cover;
+    /* background-position: center; */
+    /* padding-top: 0px; */
+    /* background-size: 100%; */
+    opacity: 0.70;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+#firstpage h1{
+    
+    /* color: rgb(48,4,38); */
+    color: rgb(178 175 169);
+    /* text-align: center; */
+    text-align: left;
+    padding: 3px;
+    /* padding-top: 20px; */
+    font-family: gilroy-bold;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Fredoka One', cursive; */
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    font-family: 'Major Mono Display', monospace;
+    font-size: 70px;
+    font-weight: 20px;
+    /* position: relative; */
+    left: 0px;
+
+}
+
+
+#h1
+{
+    padding-top: 20px;
+    margin-top: 100px;
+
+}
+#h1:hover
+{
+    color: rgb(45,11,30);
+}
+#h2:hover
+{
+    color: rgb(45,11,30);
+}
+#h3:hover
+{
+    color: rgb(45,11,30);
+}
+#h4:hover
+{
+    color: rgb(45,11,30);
+}
+
+
+/* About Us Section */
+
+#about
+{
+    margin: 123px;  
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    /* padding-top: 20px; */
+    height: 300px;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+#about::before
+{
+    content: "";
+    position: absolute;
+    background: url('../Img/Coffee-gif.gif') no-repeat center center/cover;
+    opacity: 0.70;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+}
+#about h1
+{ 
+     color: rgb(127,0,57);
+     text-align: center;;
+     padding: 3px;
+     padding-top: 20px;
+     font-size: 203px;
+     font-weight: 20px;
+     margin: 100px;
+     margin-bottom: 20px;
+     font-family: 'Bebas Neue', cursive;
+     /* position: relative; */
+}
+
+.knowus
+{
+    font-size: 40px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-weight: bolder; */
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Utility Class */
+
+.h-primary
+{
+    font-size: 70px;
+    padding: 20px;
+    
+}
+.h-secondary
+{
+    font-size: 70px;
+    padding: 20px;
+}
+
+.btn
+{
+    padding: 10px 30px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 20px 20px;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    opacity: 0.65;
+    border-radius: 65px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: rgb(28,0,0);
+    opacity: 1.95;
+}
+
+.center
+{
+    text-align: center;
+}
+
+
+
+
+
