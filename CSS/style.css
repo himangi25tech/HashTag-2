@@ -6,6 +6,12 @@
     padding: 0px;
 }
 
+html
+{
+    scroll-behavior: smooth;
+    
+}
+
 /* css variables */
 :root
 {
@@ -279,7 +285,7 @@
 /* News Headlines Section */
 
 
-.news
+#news
 {
     margin-top: 445px;
     display: flex;
@@ -297,7 +303,7 @@
     
 }
 
-.news::before
+#news::before
 {
     content: "";
     position: absolute;
@@ -395,7 +401,7 @@
 
 /* Newspapers Section */
 
-.newspaper
+#newspaper
 {
     margin: 0px 40px;
     margin-top: -3.5px;
@@ -412,7 +418,7 @@
     
 }
 
-.newspaper::before
+#newspaper::before
 {
     content: "";
     position: absolute;
@@ -456,7 +462,7 @@
 
 /* Blog Section */
 
-.blog
+#blog
 {
     display: flex;
     flex-direction: column;
@@ -472,7 +478,7 @@
 
 }
 
-.blog::before
+#blog::before
 {
     margin-top: -260px;
     content: "";
@@ -538,3 +544,5 @@ padding-bottom: 0px;}
     font-family: 'Cedarville Cursive', cursive;
     font-size: 50px;
 }
+
+
