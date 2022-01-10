@@ -573,7 +573,9 @@ padding-bottom: 0px;}
     margin-top: -469px;
     content: "";
     position: absolute;
-    background-color: #641119;
+    /* background-color: #641119;
+     */
+     background: url("/Img/community-bg.png") no-repeat center center/cover;
     
     height: 100%;
     width: 100%;
@@ -581,11 +583,188 @@ padding-bottom: 0px;}
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-
+/* 
 #heading
 {
     margin: 0px;
     margin-top: -700px;
     margin-bottom: 100px;
     padding-bottom: 100px;
+} */
+
+.btn-3
+{
+    display: inline-block;
+    padding: 22px 33px;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(19, 17, 17);
+    margin: -292px 73px;
+    margin-bottom: 140px;
+    font-size: 1.5rem;
+    opacity: 0.75;
+    /* border-radius: 65px; */
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    z-index: 5;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 20px 8px 0px rgb(36, 26, 26);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* text-transform: uppercase; */
+    width: 500px;
+    height: 200px;
+    margin-right: -800px;
+    border-radius: 700px;
 }
+
+.btn-3 a
+{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bolder; */
+    /* font-family: 'Petit Formal Script', cursive; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.0rem;
+    
+
+}
+.btn-3:hover
+{
+    opacity: 1;
+}
+
+/* Section for join-us */
+
+#join-us
+{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+    padding: 0px 50px;
+    /* padding-top: 20px; */
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#join-us::before
+{
+    margin-top: -380px;
+    content: "";
+    position: absolute;
+    /* background-color: #641119;
+     */
+     background: url("/Img/2.Community.jfif") no-repeat center center/cover;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container-2
+{
+    height: 500px;
+    width: 500px;
+    
+    padding: 20px 20px;
+    margin: 50px 70px;
+    margin-top: -300px;
+}
+
+#form
+{
+    width: 600px;
+    /* border: 2px solid black; */
+}
+
+#weather
+{
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    /* margin-left: 100px;    */
+}
+
+.information
+{
+   padding: 20px 20px;
+}
+
+input
+{
+    width: 90%;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0px 25px;
+    font-size: 16px;
+    color: #8a8fa3;  
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+}
+
+#yourself
+{
+    height: 150px;
+}
+
+.btn-4
+{
+    display: inline-block;
+    padding: 22px 33px;
+    padding-top: 10px;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(19, 17, 17);
+    margin:  0px 73px;
+    margin-bottom: 140px;
+    font-size: 1.5rem;
+    opacity: 0.75;
+    /* border-radius: 65px; */
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    z-index: 5;
+    transition: all 0.3s ease-out 0s;
+    box-shadow: 0px 10px 5px 0px rgb(36, 26, 26);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* text-transform: uppercase; */
+    width: 300px;
+    height: 50px;
+    /* margin-right: -500px; */
+    /* margin-right: 100px; */
+    border-radius: 700px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.btn-4 a
+{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bolder; */
+    /* font-family: 'Petit Formal Script', cursive; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 500px ;
+    
+    
+
+}
+.btn-4:hover
+{
+    /* opacity: 1; */
+    background-color: rgb(249,50,98);}
+/* 
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-d6638293-53ea-493f-8453-8394dc72eb93"></div> */

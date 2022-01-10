@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HashTag-In your Neighborhood|Hashtag.com</title>
     <link rel="stylesheet" href="CSS/style.css">
-      
-    
+
+
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet"> -->
@@ -26,12 +26,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <script>
         function myFunction(x) {
-          x.classList.toggle("change"); 
+            x.classList.toggle("change");
         }
-    </script>  
+    </script>
 </head>
 
 <body>
@@ -44,19 +46,19 @@
         </div>
         <!-- Code for other navigaiton bar components -->
         <ul>
-        
+
             <li class="class"><a href="#about">About us</a></li>
-            <li class="class"><a href="#">Light</a></li>
+            <li class="class"><a href="#community">Light</a></li>
             <li class="class"><a href="#blog">Blog</a></li>
             <li class="class"><a href="#news">NewsBazaar</a></li>
             <li class="class"><a href="#newspaper">Aakhbar</a></li>
-            <li class="class"><a href="#">Join Us</a></li>
+            <li class="class"><a href="#join-us">Join Us</a></li>
         </ul>
         <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-          </div>
+        </div>
     </nav>
     <!--     
     <section id="transition-bar">
@@ -123,17 +125,17 @@
 
     <section id="newspaper">
         <div class="conatiner">
-            <button class="btn-1"><a href="#">Times of India</a></button>
-            <button class="btn-1"><a href="#">Hindustan Times</a></button>
-            <button class="btn-1"><a href="#">Economic Times</a></button>
+            <button class="btn-1"><a href="#" target="_blank">Times of India</a></button>
+            <button class="btn-1"><a href="#" target="_blank">Hindustan Times</a></button>
+            <button class="btn-1"><a href="#" target="_blank">Economic Times</a></button>
         </div>
         <div id="aakbar-logo center">
             <img src="/Img/Aakhbaar-logo-2.png" alt="Hashtag.com">
         </div>
         <div class="container">
-            <button class="btn-1"><a href="#">Patrika</a></button>
-            <button class="btn-1"><a href="#">The Telegraph</a></button>
-            <button class="btn-1"><a href="#">Dainik Bhaskar</a></button>
+            <button class="btn-1"><a href="#" target="_blank">Patrika</a></button>
+            <button class="btn-1"><a href="#" target="_blank">The Telegraph</a></button>
+            <button class="btn-1"><a href="#" target="_blank">Dainik Bhaskar</a></button>
         </div>
     </section>
 
@@ -142,14 +144,14 @@
     <section id="blog">
 
         <div class="container-1">
-            <button class="btn-2"><a href="#">Times of India</a></button>
-            <button class="btn-2"><a href="#">Hindustan Times</a></button>
-            <button class="btn-2"><a href="#">Economic Times</a></button>
-            <button class="btn-2"><a href="#">Patrika</a></button>
-            <button class="btn-2"><a href="#">The Telegraph</a></button>
-            <button class="btn-2"><a href="#">Dainik Bhaskar</a></button>
-            <button class="btn-2"><a href="#">The Telegraph</a></button>
-            <button class="btn-2"><a href="#">Dainik Bhaskar</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Times of India</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Hindustan Times</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Economic Times</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Patrika</a></button>
+            <button class="btn-2"><a href="#" target="_blank">The Telegraph</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Dainik Bhaskar</a></button>
+            <button class="btn-2"><a href="#" target="_blank">The Telegraph</a></button>
+            <button class="btn-2"><a href="#" target="_blank">Dainik Bhaskar</a></button>
         </div>
         <div class="blog-des">
             <h1 id="description">Waiting for your writings...</h1>
@@ -159,12 +161,44 @@
     <!-- Section for community -->
 
     <section id="community">
-        <h1 id="heading">
+        <!-- <h1 id="heading">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nostrum doloribus obcaecati natus inventore
             fugit!
-        </h1>
-        <button class="btn-3">Lorem ipsum dolor sit.</button>
+        </h1> -->
+        <button class="btn-3"><a href="#" target="_blank">Join the Light</a></button>
     </section>
+
+
+
+    <!-- Section for join us -->
+    <section id="join-us">
+        <div class="container-2" id="form">
+            <div class="information" id="name">
+                <input type="text" name="name" placeholder="Name"> 
+            </div>
+            <div class="information" id="email">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="information" id="password">
+                <input type="password" name="password" placeholder="Password" >
+            </div>
+            <div class="information">
+                <input type="text" name="yourself" placeholder="Write Something about Yourself"  id="yourself">
+            </div>
+            <button class="btn-4"><a href="#" target="_blank">Join now</a></button>
+        </div>
+        <div class="container-2" id="weather">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-d6638293-53ea-493f-8453-8394dc72eb93"></div>
+        </div>
+    </section>
+
+    <!-- <section class="wind">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/28d6677d23/delhi/" data-label_1="DELHI" data-label_2="WEATHER" data-theme="original" >DELHI WEATHER</a>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+    </section> -->
 
 </body>
 
