@@ -769,60 +769,110 @@ input
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-d6638293-53ea-493f-8453-8394dc72eb93"></div> */
 
-/* Footer */
-.footer
+/* Footer Section */
+
+#last
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.footer-widget {
-    background-color: #152136; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .footer-widget {
-        padding-top: 100px;
-        padding-bottom: 100px; } }
-    @media (max-width: 767px) {
-      .footer-widget {
-        padding-top: 80px;
-        padding-bottom: 80px; } }
-  
-  .footer-content p {
-    color: #fff;
-    margin-top: 35px; }
-  .footer-content ul {
-    margin-top: 35px; }
-    .footer-content ul li {
-      display: inline-block;
-      margin: 0 14px; }
-      @media (max-width: 767px) {
-        .footer-content ul li {
-          margin: 0 7px; } }
-      .footer-content ul li a {
-        font-size: 30px;
-        width: 74px;
-        height: 70px;
-        line-height: 74px;
-        text-align: center;
-        border-radius: 50%;
-        color: #bebebe;
-        background-color: #1c2940;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
-        @media (max-width: 767px) {
-          .footer-content ul li a {
-            width: 52px;
-            height: 50px;
-            line-height: 50px;
-            font-size: 20px; } }
-        .footer-content ul li a:hover {
-          background-color: #754ef9;
-          color: #fff; }
-  
-  .footer-copyright {
-    background-color: #1c2940; }
-    .footer-copyright .copyright-text p {
-      color: #fff; }
-  
+#last::before
+{
+    margin-bottom: -100px;
+    content: "";
+    position: absolute;
+    background-color: rgb(7,45,90);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.container-3
+{
+    height: 150px;
+    width: 80%;
+    /* border: 2px solid white; */
+    /* margin: 20px; */
+}
+
+#companies
+{
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pics
+{
+    height: 20px;
+    width: 20px;
+    /* border: 2px solid white; */
+    border-radius: 100px;
+    padding: 50px 50px;
+    margin-left: 30px;
+}
+
+#github
+{
+    margin-left: 200px;
+}
+
+.bi:hover
+{
+    opacity: 0.5;
+}
+
+#hashtag
+{
+
+}
+
+#hashtag img
+{
+    height: 100%;
+    width: 150px;
+    margin-left: 500px;
+    filter: invert(100%);
+    margin-top: 20px;
+    
+    
+}
+
+#hashtag img:hover
+{
+    
+}
+
+#copyright
+{
+    height: 100px;
+}
+
+#copy
+{
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+#btn-5
+{
+    background-color: black;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    opacity: 0.4;
+    margin-left: 1200px;
+    margin-top: -70px;
+    border-color: black;
+}
+
+#btn-5:hover
+{
+    opacity: 1;
+}
